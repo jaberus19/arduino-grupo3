@@ -1,3 +1,4 @@
+// hola se me olvido mi nombre, juan perdomo 27198676
 // Pines Vías Norte y Sur (Conectados en paralelo)
 const int cocheVerdeNS = 2;
 const int cocheAmarilloNS = 3;
