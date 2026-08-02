@@ -44,3 +44,20 @@ void loop() {
   digitalWrite(peatonRojoEO, HIGH);
 
   delay(2000); // Duración de la luz amarilla (2 segundos)
+
+
+  // FASE 3: Avanza Este-Oeste, Peatones Norte-Sur cruzan.
+  digitalWrite(cocheAmarilloNS, LOW);
+  digitalWrite(cocheRojoNS, HIGH); // Coches NS detenidos
+  digitalWrite(peatonVerdeNS, HIGH); // Peatones NS cruzan
+  digitalWrite(peatonRojoNS, LOW);
+
+  digitalWrite(cocheVerdeEO, HIGH);
+  digitalWrite(cocheRojoEO, LOW);
+  
+  delay(5000); // Duración de la luz verde (5 segundos)
+
+
+
+
+  
