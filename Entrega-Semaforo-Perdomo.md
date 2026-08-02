@@ -7,4 +7,9 @@
 https://github.com/jaberus19/Semaforo-Arduino-IUJO
 
 ** enlaces de videos** 
-https://drive.google.com/file/d/1Juk7G71xKv5oxxsM9IGHy7Yk_bwXkreY/view?usp=drivesdk
+juan:
+https://drive.google.com/file/d/1jIP6q5W-Vvin-VigmqRj0dlFTr1ZRgmn/view?usp=drivesdk
+
+
+javier:
+https://drive.google.com/drive/folders/1KqfPVavJF45222cwgBkCpjBjgKiAXTeF?usp=sharing
