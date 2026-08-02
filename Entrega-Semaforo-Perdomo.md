@@ -1,6 +1,7 @@
 # Proyecto: Semaforos Sincronizados con Arduino
 ** integrantes**
-1. juan perdomo-27198676
+1. Juan Perdomo -27198676
+2. Hildemar Goyo-27759545
 
 ** enlace de repositorio** 
 https://github.com/jaberus19/Semaforo-Arduino-IUJO
