@@ -20,3 +20,18 @@ void setup() {
   }
 }
 
+void loop() {
+  // FASE 1: Avanza Norte-Sur, Peatones Este-Oeste cruzan.
+  digitalWrite(cocheVerdeNS, HIGH);
+  digitalWrite(cocheAmarilloNS, LOW);
+  digitalWrite(cocheRojoNS, LOW);
+  digitalWrite(peatonVerdeNS, LOW);
+  digitalWrite(peatonRojoNS, HIGH); // Peatones NS esperan
+
+  digitalWrite(cocheVerdeEO, LOW);
+  digitalWrite(cocheAmarilloEO, LOW);
+  digitalWrite(cocheRojoEO, HIGH); // Coches EO detenidos
+  digitalWrite(peatonVerdeEO, HIGH); // Peatones EO cruzan
+  digitalWrite(peatonRojoEO, LOW);
+
+  delay(5000); // Duración de la luz verde (5 segundos)
