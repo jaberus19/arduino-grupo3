@@ -35,3 +35,12 @@ void loop() {
   digitalWrite(peatonRojoEO, LOW);
 
   delay(5000); // Duración de la luz verde (5 segundos)
+
+  // FASE 2: Precaución Norte-Sur (Amarillo).
+  digitalWrite(cocheVerdeNS, LOW);
+  digitalWrite(cocheAmarilloNS, HIGH);
+  // Por seguridad, los peatones EO ya no deben iniciar el cruce
+  digitalWrite(peatonVerdeEO, LOW);
+  digitalWrite(peatonRojoEO, HIGH);
+
+  delay(2000); // Duración de la luz amarilla (2 segundos)
