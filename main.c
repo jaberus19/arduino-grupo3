@@ -1,4 +1,5 @@
 // hola se me olvido mi nombre, juan perdomo 27198676
+// Javier Lopez 27024359
 // Pines Vías Norte y Sur (Conectados en paralelo)
 const int cocheVerdeNS = 2;
 const int cocheAmarilloNS = 3;
@@ -57,7 +58,18 @@ void loop() {
   
   delay(5000); // Duración de la luz verde (5 segundos)
 
+// FASE 4: Precaución Este-Oeste (Amarillo).
+  digitalWrite(cocheVerdeEO, LOW);
+  digitalWrite(cocheAmarilloEO, HIGH);
+  // Por seguridad, los peatones NS ya no deben iniciar el cruce
+  digitalWrite(peatonVerdeNS, LOW);
+  digitalWrite(peatonRojoNS, HIGH);
+  
+  delay(2000); // Duración de la luz amarilla (2 segundos)
 
+  // Apagar el amarillo de Este-Oeste para reiniciar el loop limpiamente
+  digitalWrite(cocheAmarilloEO, LOW);
+}
 
 
   
