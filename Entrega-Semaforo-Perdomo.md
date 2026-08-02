@@ -2,6 +2,7 @@
 ** integrantes**
 1. Juan Perdomo -27198676
 2. Hildemar Goyo-27759545
+3. Javier Lopez-27024359
 
 ** enlace de repositorio** 
 https://github.com/jaberus19/Semaforo-Arduino-IUJO
